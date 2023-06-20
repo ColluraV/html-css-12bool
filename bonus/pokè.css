@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url(img/pokemon-go-4k-wallpaper.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+
+}
+.container{
+    margin: 0 auto;
+    width: 30%;
+}
+.row{
+    aspect-ratio: 1/1;
+
+}
+.black{
+    background-color: black;
+}
+.red{
+    background-color: red;
+}
+.redc{
+    background-color: rgb(226, 69, 69);
+}
+.white{
+    background-color: white;
+}
+.grey{
+    background-color: rgb(184, 184, 184);
+}
+img{
+    width: 100%;
+    margin-bottom: 3rem;
+}
